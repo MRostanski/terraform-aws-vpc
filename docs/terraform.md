@@ -2,6 +2,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
+| assign_generated_ipv6_cidr_block | A boolean flag to assign IPv6 CIDR block | string | `true` | no |
 | attributes | Additional attributes (e.g. `1`) | list | `<list>` | no |
 | cidr_block | CIDR for the VPC | string | - | yes |
 | delimiter | Delimiter to be used between `namespace`, `stage`, `name` and `attributes` | string | `-` | no |
